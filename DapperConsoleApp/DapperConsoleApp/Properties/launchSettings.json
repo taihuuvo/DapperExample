@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DapperConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "delete -n test"
+    }
+  }
+}
