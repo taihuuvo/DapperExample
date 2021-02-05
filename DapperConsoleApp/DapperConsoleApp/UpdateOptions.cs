@@ -8,9 +8,9 @@ namespace DapperConsoleApp
     [Verb("update", HelpText = "Update a record.")]
     public class UpdateOptions
     {
-        [Option('n', "name", Required = false, HelpText = "name to be added.")]
+        [Option('n', "name", Required = true, HelpText = "name client to be updated.")]
         public string Name { get; set; }
-        [Option('f', "fields", Required = false, HelpText = "fields to be added.")]
+        [Option('f', "fields", Required = true, HelpText = "fields to be updated.")]
         public IEnumerable<string> Fields { get; set; }
     }
 }

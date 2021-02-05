@@ -1,0 +1,5 @@
+﻿CREATE TABLE Client(
+    id INT identity(1,1) NOT NULL PRIMARY KEY,
+    Name NVARCHAR(255) NOT NULL,
+    Information NVARCHAR(2000) NULL
+)

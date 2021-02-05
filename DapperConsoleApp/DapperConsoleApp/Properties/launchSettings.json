@@ -2,7 +2,7 @@
   "profiles": {
     "DapperConsoleApp": {
       "commandName": "Project",
-      "commandLineArgs": "delete -n test"
+      "commandLineArgs": "update -n name1 -f info1b"
     }
   }
 }
